@@ -1,0 +1,22 @@
+.btn-style {
+  background-color: #e76f51;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: 0;
+}
+.bg-header {
+  background-color: #264653;
+}
+.star-color {
+  color: #e77c40;
+}
+.name-color {
+  color: #23a6f0;
+}
+.text-color {
+  color: #e76f51;
+}
+.f-size {
+  font-size: 50px;
+  font-weight: 600;
+}
