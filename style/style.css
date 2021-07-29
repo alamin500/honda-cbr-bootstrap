@@ -2,7 +2,8 @@ a,
 h1,
 h4,
 h5,
-p {
+p,
+strong {
   font-family: "Poppins", sans-serif;
 }
 .btn-style {
@@ -15,6 +16,20 @@ p {
   background-color: #264653;
   padding: 100px 0;
 }
+@media (max-width: 767px) {
+  .bg-header {
+    background-color: #264653;
+    padding: 60px 0 20px 0;
+  }
+  .byke {
+    width: 320px;
+    height: 260px;
+  }
+  iframe {
+    height: 180px;
+  }
+}
+
 .star-color {
   color: #e77c40;
 }
@@ -30,4 +45,14 @@ p {
 }
 .filter {
   filter: grayscale();
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+  box-shadow: none !important;
+}
+p,
+h5,
+strong {
+  color: #7e848c;
 }
